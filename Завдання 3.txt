@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <cs50.h>
+
+int main(void)
+{
+    int g = get_int("Your grade:");
+
+    if (g == 1)
+        {
+            printf("Погано\n");
+        }
+        else if (g == 2)
+        {
+            printf("Незадовільно\n");
+        }
+        else if(g == 3)
+        {
+            printf("Задовільно\n");
+        }
+        else if(g == 4)
+        {
+            printf("Добре \n");
+        }
+        else if(g == 5)
+        {
+            printf("Відмінно \n");
+        }
+        else
+        {
+            printf("Помилка\n");
+        }
+
+}
